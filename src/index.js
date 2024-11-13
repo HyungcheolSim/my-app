@@ -11,14 +11,15 @@ import reportWebVitals from "./reportWebVitals";
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 //import Accomodate from "./chapter_07/Accomodate";
 //import ConfirmButton from './chapter_08/ConfirmButton';
-import LandingPage from './chapter_09/LandingPage';
+//import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/AttendanceBook';
 
 // const container = document.getElementById("root");
 // const root = createRoot(container);
 // root.render(<CommentList />);
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPage />
+    <AttendanceBook />
   </React.StrictMode>,
   document.getElementById("root")
 );
