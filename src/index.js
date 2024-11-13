@@ -12,14 +12,15 @@ import reportWebVitals from "./reportWebVitals";
 //import Accomodate from "./chapter_07/Accomodate";
 //import ConfirmButton from './chapter_08/ConfirmButton';
 //import LandingPage from './chapter_09/LandingPage';
-import AttendanceBook from './chapter_10/AttendanceBook';
+//import AttendanceBook from './chapter_10/AttendanceBook';
+import SignUp from './chapter_11/SignUp';
 
 // const container = document.getElementById("root");
 // const root = createRoot(container);
 // root.render(<CommentList />);
 ReactDOM.render(
   <React.StrictMode>
-    <AttendanceBook />
+    <SignUp />
   </React.StrictMode>,
   document.getElementById("root")
 );
